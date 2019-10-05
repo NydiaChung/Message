@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_create_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCreateDB"
+        android:text="Create DB" />
+
+    <Button
+        android:id="@+id/btn_update_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickUpdateDB"
+        android:text="UpdateDB" />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickInsert"
+        android:text="Insert" />
+
+    <Button
+    android:id="@+id/btn_update"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onClickUpdate"
+    android:text="Update" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDelete"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/btn_qurry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickQurry"
+        android:text="Qurry" />
+
+    <Button
+        android:id="@+id/btn_test_transaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTransaction"
+        android:text="Test Transaction" />
+</LinearLayout>

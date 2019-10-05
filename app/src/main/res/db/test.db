@@ -1,0 +1,6 @@
+##建表
+create table person{
+    _id integer primary key autoincrement,
+    name varchar,
+    age integer
+}
